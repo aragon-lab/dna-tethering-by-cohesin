@@ -2,7 +2,6 @@
 Tracks kymographs, then performs pairwise linking of tracks from two different channels based on their initial positions.  Displacement of each track is calculated relative to its starting position and tracks are visualised as displacement pairs on a 2D plot.
 
 ## Requirements
-- TIFF images (.tif extension)
 - Noise2Void (N2V), enabled with "-e n2v" flag when launching pixi:
 `pixi run -e n2v jupyter lab`
 
