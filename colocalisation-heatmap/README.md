@@ -1,0 +1,2 @@
+# Colocalisation heatmap
+Creates a 2D heatmap showing frequency of paired displacements for linked kymograph traces.  Input displacement files are generated with [colocalisation-analysis-over-time scripts](../colocalisation-analysis-over-time/).  
