@@ -5,7 +5,7 @@ Analysis tools used in the publication "Cohesin can tether two DNA molecules wit
 The easiest way to download the files in this repository is by clicking the green "Code" button above and selecting "Download ZIP".
 
 ## 2. Installation
-All tools in this repository, with the exception of "tether-site-intensity-analysis" are written in Python using Jupyter notebooks.  Setup information for Jupyter notebooks is shown in [Jupyter notebook setup](#21-jupyter-notebook-setup) and information for "tether-site-intensity-analysis" is provided in [ModularImageAnalysis (MIA) setup](#22-modularimageanalysis-mia-setup).
+All tools in this repository, with the exception of "binding-retention-with-hsw" and "tether-site-intensity-analysis" are written in Python using Jupyter notebooks.  Setup information for Jupyter notebooks is shown in [Jupyter notebook setup](#21-jupyter-notebook-setup) and information for "tether-site-intensity-analysis" is provided in [ModularImageAnalysis (MIA) setup](#22-modularimageanalysis-mia-setup).
 
 ### 2.1. Jupyter notebook setup
 This repository contains pre-configured Python environments using the [Pixi](https://pixi.sh) package manager.  The provided Pixi configuration supports all major platforms: Windows (64-bit), MacOS (64-bit Intel and Apple Silicon) and Linux (64-bit).  To learn more about Pixi, there's an excellent 45 minute [tutorial](https://www.youtube.com/live/ws92c5NFPaU) from the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) (University of Bristol).
@@ -20,7 +20,7 @@ To install Pixi, copy and paste the relevant command below into a terminal (e.g.
 Note: It's not possible to define a single configuration which is compatible with the dependencies Noise2Void (N2V) and Pylake for Apple Silicon devices (M1, M2, etc.).  These aren't often used in these scripts, so a "default" environment which contains neither exists; however, environments containing either N2V or Pylake have also been provided.
 
 ### 2.2. ModularImageAnalysis (MIA) setup
-The "tether-site-intensity-analysis" tool uses the [ModularImageAnalysis (MIA)](https://mianalysis.github.io) plugin for ImageJ/Fiji.  To run this, it's recommended to download a new copy of Fiji from [fiji.sc](https://fiji.sc).  Since ImageJ and Fiji are "portable" applications (no installation required), it's not necessary to delete any existing copies.  Once downloaded, the following steps will install MIA:
+The "binding-retention-with-hsw" and "tether-site-intensity-analysis" tools use the [ModularImageAnalysis (MIA)](https://mianalysis.github.io) plugin for ImageJ/Fiji.  To run these, it's recommended to download a new copy of Fiji from [fiji.sc](https://fiji.sc).  Since ImageJ and Fiji are "portable" applications (no installation required), it's not necessary to delete any existing copies.  Once downloaded, the following steps will install MIA:
 
 1. Within Fiji, go to Help > Update...
 2. In the "ImageJ Updater" window, click "Manage Update Sites"
